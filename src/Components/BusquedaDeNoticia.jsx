@@ -110,9 +110,9 @@ function BusquedaDeNoticia({ setBusqueda, busqueda }) {
   return (
     <>
       <div className="border-bottom border-dark p-3">
-        <div className="d-flex rows col-8 offset-2 ">
+        <div className="d-md-flex  rows col-12 col-md-10  ">
           <select
-            className="form-select me-5 "
+            className="form-select text-center  offset-md-1 my-2 w-sm-50 "
             aria-label="Default select example"
             onChange={handleChangeCategory}
           >
@@ -126,7 +126,7 @@ function BusquedaDeNoticia({ setBusqueda, busqueda }) {
             ))}
           </select>
           <select
-            className="form-select ms-5"
+            className="form-select text-center  offset-md-1 my-2 w-sm-50 "
             aria-label="Default select example"
             onChange={handleChangeCountry}
           >
